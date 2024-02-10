@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+}
+/*background*/
+.LoginBackground{
+    background: #000000;
+}
+.LoginBackground img{
+    width: 100vw;
+    background-size: cover;
+    opacity: 0.3; 
+}
+
+/*logo*/
+.LoginLogo{
+    position: fixed;  
+    top: 14.5%;  
+    left: 50%;  
+    transform: translate(-50%, -50%);
+}
+.LoginLogo img{
+    width: 8.5vw;
+    height: auto;
+}
+
+/*login,email and password*/
+.InputEmailandPassword{
+    margin-top: -34%;
+    position: fixed;
+    left: 50.8%;
+    transform: translate(-50%, -50%);
+}
+.textlogin,.textemail,.textpassword{
+    font-family: 'Lora', serif;
+    color: white;
+}
+.textlogin{
+    margin-left: -1%;
+    text-align: center;
+    font-style: italic;
+    font-size: 32px;
+    letter-spacing: 10px;
+}
+.textemail,.textpassword{
+    font-size: 28px;
+    margin-top: 2%;
+}
+.textemailinput,.textpasswordinput{
+    outline: none;
+    border: none;
+    background: none;
+    width: 40vw;
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    color: #A3D2FE;
+}
+#emailinput::placeholder,#passwordinput::placeholder{
+    color: #A3D2FE;
+    font-size: 20px;
+}
+
+/*linktonextpage*/
+.textforgotpassword{
+    position: fixed;
+    top: 64%;
+    left: 62%;
+    font-family: 'Lora', serif;
+    font-size: 23px;
+    color: #A3D2FE;
+}
+.buttonlogin{
+    position: fixed;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 45vw;
+    height: 7vh;
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    color: #3066BE;
+    background: #FDEDED;
+}
+.TextandLinkToSignUp{
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    font-family: 'Lora', serif;
+    font-size: 24px;
+}
+.textnoaccount{
+    color: white;
+}
+.linktosignup{
+    color: #A3D2FE;
+}
+.textor{
+    position: fixed;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    color: white;
+}
+.buttonlogigwithgoogle{
+    position: fixed;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45vw;
+    height: 7vh;
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    color: #3066BE;
+    background: #FDEDED;
+}
+.buttonlogin:hover,.buttonlogigwithgoogle:hover{
+    background: #3066BE;
+    color: white;
+}
