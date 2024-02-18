@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+}
+/*background*/
+.HomePageBackground{
+    background: #000000;
+}
+.HomePageBackground img{
+    width: 100vw;
+    background-size: cover;
+    opacity: 0.2; 
+}
+.NavBar{
+    position: absolute;
+    top: 0;
+}
+.MainPage{
+    position: absolute;
+    top: 0;
+}

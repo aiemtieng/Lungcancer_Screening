@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+}
+/*logo and textnameproject*/
+.NavBar{
+    position: fixed;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+.logoandtextname{
+    display: flex;
+    align-items: center;
+    margin-left: -23%;
+}
+.logoandtextname img{
+    width: 4.5vw;
+}
+.textnameproject{
+    width: 50vw;
+    font-size: 24px;
+    font-family: 'Lora', serif;
+    color: white;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 2.5%;
+}
+.texthomeandloginbutton{
+    display: flex;
+    align-items: center;
+    margin-left: 45%;
+}
+.texthome{
+    font-size: 24px;
+    font-family: 'Lora', serif;
+    color: white;
+    font-weight: 100;
+}
+.homeloginbutton{
+    width: 5vw;
+    height: 5.5vh;
+    margin-left: 20%;
+    color: #3066BE;
+    background: #FDEDED;
+}
+.homeloginbutton:hover{
+    background: #3066BE;
+    color: white;
+}
