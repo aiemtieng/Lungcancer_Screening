@@ -76,6 +76,7 @@ body{
 }
 .buttonsignup{
     position: fixed;
+    margin-top: 16%;
     top: 73%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -88,12 +89,15 @@ body{
 }
 .TextandLinkToLogin{
     position: fixed;
+    margin-top: 20%;
+    margin-left: 23%;
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
     font-family: 'Lora', serif;
     font-size: 24px;
+    width: 50vw;
 }
 .textnoaccount{
     color: white;
@@ -103,6 +107,7 @@ body{
 }
 .textor{
     position: fixed;
+    margin-top: 23%;
     top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -110,8 +115,9 @@ body{
     font-size: 24px;
     color: white;
 }
-.buttonlogigwithgoogle{
+.buttonsignupwithgoogle{
     position: fixed;
+    margin-top: 27%;
     top: 92%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -125,7 +131,7 @@ body{
     color: #3066BE;
     background: #FDEDED;
 }
-.buttonsignup:hover,.buttonlogigwithgoogle:hover{
+.buttonsignup:hover,.buttonsignupwithgoogle:hover{
     background: #3066BE;
     color: white;
 }
